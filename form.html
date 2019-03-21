@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">main page</a>
+        </nav>
+    </header>
+    <main>
+        <h1>client form</h1>
+        <form method="post" action="https://formspree.io/fedroman78@gmail.com">
+            <input type="text" placeholder="name" name="client-name" required >
+            <br>
+             <label>
+                email:<input type="text" placeholder="email" name="client-email" required >
+                <br>
+            </label>
+             <label>Gender</label>
+            <label>
+                <input type="radio" name="gender"> male
+            </label>
+            <label>
+                <input type="radio" name="gender"/> female
+            </label>
+            <label>
+                <input type="radio" name="gender"/> other
+            </label>
+            <br>
+            <input type="submit" value="submit">
+            
+        </form>
+        <!-----другий спосіб для запису Placeholder---->
+        <form>
+            <label for="client-name">name</label>
+            <input id="client-name" type="text" placeholder="name" required >
+            <input type="submit" value="Submit"/>
+        </form>
+        <!-----третій спосіб для запису Placeholder---->
+        <form>
+            <label>
+                email:<input type="text" placeholder="email" name="client-email" required >
+            </label>
+        </form>
+        <form>
+            <label>Gender</label>
+            <label>
+                <input type="radio" name="gender"> male
+            </label>
+            <label>
+                <input type="radio" name="gender"/> female
+            </label>
+            <label>
+                <input type="radio" name="gender"/> other
+            </label>
+            <br>
+            <input type="submit" value="submit">
+        </form>
+        
+    </main>
+    
+</body>
+</html>
